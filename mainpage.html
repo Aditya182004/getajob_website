@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0px;
+        }
+        .navbar{
+            display: grid;
+            grid-template-rows: auto auto auto;
+            height: 500px;
+            width: auto;
+            background-color: black;
+            color: white;
+            
+        }
+        .navcontent{
+            display: grid;
+            grid-template-columns: auto auto auto auto auto;
+            justify-content: space-evenly;
+            
+            padding: 10px;
+            width: auto;
+            height: 50px;
+            align-content: center;
+            color: white;
+        }
+        a{
+            text-decoration: none;
+            font-size: 18px;
+            color: white;
+        }
+        .home>button{
+            background-color: transparent;
+            border: none;
+        }
+        .title{
+            font-size: 25px;
+        }
+        .btn>button{
+            padding: 10px;
+            border-radius: 20px;
+            background-color: rgb(245, 105, 6);
+            border-color: rgb(245,105,6);
+            margin-left: 20px;
+            
+        }
+        span{
+            color: rgb(14, 151, 205);
+        }
+        .main{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            background-color: beige;
+            border: 2px solid burlywood;
+            height: 220px;
+            width: auto;
+        }
+        .footer
+        {
+            margin-top: -20px;
+            height: 100px;
+            width: auto;
+            background-color: rgb(124, 123, 121);
+        }
+        .r1,.r2,.r3{
+            border: 2px solid black;
+            margin-right: 20px;
+            height: 200px;
+            background-color: azure;
+        }
+        .r1{
+            margin-left: 10px;
+        }
+        .t1,.t2,.t3{
+            margin-left: 10px;
+        }
+        .t2>button{
+            background-color: orange;
+            padding: 10px;
+            margin-left: 10px;
+            border-radius: 20px;
+        }
+        .t1>button{
+            background-color: orange;
+            padding: 10px;
+            border-radius: 20px;
+            color: white;
+        }
+        .t3>button{
+            background-color: orange;
+            padding: 10px;
+            border-radius: 20px;
+
+        }
+        .login>button
+        {
+            background-color: red;
+            padding: 6px;
+            border-radius: 10px;
+        }
+        .faq>button{
+            background-color: transparent;
+
+        }
+        .box
+        {
+            width: 300px;
+            height: 100px;
+            margin-left: 1000px;
+            font-size: 20px;
+            color: yellow;
+        }
+        .btn{
+            margin-top: -120px;
+        }
+        .plc{
+            color: rgb(70, 191, 228);
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="navcontent">
+
+            <div class="home"><button><a href="#">Home</a></button></div>
+            <div class="home"><button><a href="#">Contacts</a></button></div>
+            <div class="home"><button><a href="#">About</a></button></div>
+            <div class="faq"><button><a href="#">FAQ</a></button></div>
+            <div class="login"><button><a href="#">Login</a></button></div>
+
+        </div>
+
+        <div class="title"><h1><span>One</span> stop solution for all job <br> Aspirants</h1>
+        </div>
+        <div class="box"> 5000+ Students already placed <br><br><br>
+        <span class="plc">95% Placement ratio</span> </div>
+        <div class="btn"><button><a href="#">Apply now</a></button>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="r1">
+            <div class="t1">
+                <h1>Google </h1>
+                <p>Junior web developer</p><br>
+                <button><a href="#"></a>Learn More</button>
+            </div>
+        </div>
+        <div class="r2">
+            <div class="t2">
+                <h1>Amazon</h1>
+                <p>Product manager</p><br>
+                <button><a href="#">Learn More</a></button>
+            </div>
+        </div>
+        <div class="r3">
+            <div class="t3">
+                <h1>Meta</h1>
+                <p>Software Engineer</p><br>
+                <button><a href="#">Learn More</a></button>
+            </div>
+        </div>
+    </div>
+    <footer class="footer"> 
+        <p id="*" class="text-center"> &copy; @2023 getajob.com </p>
+        email - getajob@gmail.com <br>
+        <u>Privacy policy & Terms and conditions</u> 
+    </footer>
+</body>
+</html>
